@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [seleniumgluecode.FeedbackTest]" verbose="0">
+  <test name="Command line test 9115cdce-3198-4a6e-bfa8-a783850aedf5">
+    <classes>
+      <class name="seleniumgluecode.FeedbackTest"/>
+    </classes>
+  </test> <!-- Command line test 9115cdce-3198-4a6e-bfa8-a783850aedf5 -->
+</suite> <!-- Failed suite [seleniumgluecode.FeedbackTest] -->

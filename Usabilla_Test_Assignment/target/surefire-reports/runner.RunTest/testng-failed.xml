@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [runner.RunTest]" verbose="0">
+  <test name="Command line test 25b9f051-5945-4466-a6e3-5ea51c7d3aa0">
+    <classes>
+      <class name="runner.RunTest"/>
+    </classes>
+  </test> <!-- Command line test 25b9f051-5945-4466-a6e3-5ea51c7d3aa0 -->
+</suite> <!-- Failed suite [runner.RunTest] -->

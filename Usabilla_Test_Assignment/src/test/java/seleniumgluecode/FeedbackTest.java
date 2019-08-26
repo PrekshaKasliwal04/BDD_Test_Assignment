@@ -31,19 +31,17 @@ public class FeedbackTest {
 		return driver;
 	}
 	private static WebDriver initChromeDriver(String appURL) {
-
-		if (new File("D:\\chrome\\chromedriver.exe").exists()) {
-			System.setProperty("webdriver.chrome.driver", "D:\\chrome\\chromedriver.exe");
-		}
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + File.separator + "lib"+ File.separator+"chromedriver.exe");		
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
-		driver = new ChromeDriver(cap);
+		capabilities.setCapability("marionette", true);
+		driver = new ChromeDriver();
 		driver.navigate().to(appURL);
 		driver.manage().timeouts().implicitlyWait(600, TimeUnit.MILLISECONDS);
 		return driver;
 	}
 
 	private static WebDriver initFirefoxDriver(String appURL) {
-		System.setProperty("webdriver.gecko.driver", "D:\\gecko\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + File.separator + "lib" + File.separator + "gecko" + File.separator + "geckodriver.exe");
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 		capabilities.setCapability("marionette", true);
 		driver = new FirefoxDriver();

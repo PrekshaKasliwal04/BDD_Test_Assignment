@@ -1,4 +1,3 @@
-"# Usabilla_Test_Assignment" 
 This Maven project is based on Behavior Driven Development using Gherkin with Cucumber.
 
 It executes the test scripts, which have been defined in the feedbackTest.feature file.The language, in which this executable feature files is written is Gherkin.
